@@ -1,6 +1,6 @@
 from datetime import datetime
-from CustomError import (NonActiveAccountError, MaxAccountsError, NegativeBalanceError, InsufficientFundsError,
-                         EmptyNameError, EmptyEmailError, InvalidDepositError, InvalidWithdrawalError)
+from custom_error import (NonActiveAccountError, MaxAccountsError, NegativeBalanceError, InsufficientFundsError,
+                          EmptyNameError, EmptyEmailError, InvalidDepositError, InvalidWithdrawalError)
 
 class BankAccount:
     max_balance: float = 0

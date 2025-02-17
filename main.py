@@ -1,6 +1,6 @@
-from BankAccount import BankAccount
-from CustomError import (NonActiveAccountError, MaxAccountsError, NegativeBalanceError, InsufficientFundsError,
-                         EmptyNameError, EmptyEmailError, InvalidDepositError, InvalidWithdrawalError)
+from bank_account import BankAccount
+from custom_error import (NonActiveAccountError, MaxAccountsError, NegativeBalanceError, InsufficientFundsError,
+                          EmptyNameError, EmptyEmailError, InvalidDepositError, InvalidWithdrawalError)
 
 
 def main():
